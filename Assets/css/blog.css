@@ -6,12 +6,6 @@
     --submit:#ffe6a7;
    }
 
-.center {
-    text-align: center;
-    justify-content: center;
-    align-self: center;
-
-}
 .buttonBox{
     display: flex;
     justify-content: center;

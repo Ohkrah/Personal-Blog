@@ -54,6 +54,7 @@
 @media screen and (min-width: 765px){
      /* used Xpert for help with flex box design and right side alignment */
      .rightSide{
+        margin-left: 2.5%;
         width: 100%;
         display:flex;
         flex-direction: column;

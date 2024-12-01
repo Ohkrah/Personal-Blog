@@ -16,6 +16,13 @@ body{
     background-color: var(--font);
 }
 
+.center {
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+
+}
+
 .light{
     background-color: var(--background);
 }
