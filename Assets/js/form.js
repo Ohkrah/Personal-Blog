@@ -7,6 +7,7 @@ const submit = document.querySelector('#submit');
 
 //troubleshot issue with pulling value of input boxes at submit vs on pageload
 //troubleshot issue with repeated nested arrays in localStorage
+//function to create and store new blog posts
 function newBlogPost() {
     let blogs = [];
     if (localStorage.getItem('blogs')){
