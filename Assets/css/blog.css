@@ -1,0 +1,84 @@
+:root{
+    --background:#bb9457;
+    --header:#6f1d1b;
+    --input:#99582a;
+    --font:#432818;
+    --submit:#ffe6a7;
+   }
+
+.center {
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+
+}
+.buttonBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    font-size: 20px;
+    width: 50%;
+    background-color: var(--submit);
+    color: var(--font);
+    margin-top: 5%;
+}
+
+.post{
+    display: flexbox;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 7%;
+    background-color: var(--header);
+    border-radius: 8px;
+    align-self: end;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.postUser{
+    font-style: italic;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 2%;
+    width: auto;
+    height: auto;
+    color: var(--font);
+    background-color: var(--input);
+    border-radius: 6px;
+    border-color: var(--header);
+}
+.postTitle{
+    font-weight: 700;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5%;
+    width: auto;
+    height: auto;
+    color: var(--font);
+    background-color: var(--input);
+    border-radius: 6px;
+    border-color: var(--header);
+}
+.postContent{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%; 
+    padding: 10%;
+    width: auto;
+    height: auto;
+    color: var(--font);
+    background-color: var(--input);
+    border-radius: 6px;
+    border-color: var(--header);
+}
+

@@ -1,0 +1,89 @@
+:root{
+    --background:#bb9457;
+    --header:#6f1d1b;
+    --input:#99582a;
+    --font:#432818;
+    --submit:#ffe6a7;
+}
+
+.rightSide{
+    width: 95%;
+    display:flex;
+    flex-direction: column;
+    padding: 5%;
+    align-self: center;
+    
+    input{
+        background-color: var(--input);
+        color: var(--font);
+        align-self: center;
+        margin: 2.5%;
+        width: 100%;
+    }
+    /* used Xpert for help changing placeholder color */
+    input::placeholder{
+        color: var(--font);
+    }
+
+    #submit{
+        background-color: var(--submit);
+        color: var(--font);
+    }
+
+
+    #username{
+
+        padding-top: 2.5%;
+        padding-right: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    #title{
+        font-weight: 550;
+        padding-top: 3.5%;
+        padding-right: 3.5%;
+        padding-bottom: 3.5%;
+        
+    }
+    #content{
+        padding-top: 1.5%;
+        padding-right: 5%;
+        padding-bottom: 15%;
+    }
+}
+
+@media screen and (min-width: 765px){
+     /* used Xpert for help with flex box design and right side alignment */
+     .rightSide{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        justify-content: flex-end;
+        align-content: flex-end;
+    
+         input{
+            align-self: flex-end;
+            margin-right: 2.5%;
+            margin-top: 3%;
+        }
+    
+        #username{
+            padding-top: 2.5%;
+            padding-right: 2.5%;
+            padding-bottom: 2.5%;
+        }
+        #title{
+            padding-top: 3.5%;
+            padding-right: 3.5%;
+            padding-bottom: 3.5%;
+        }
+        #content{
+            padding-top: 5%;
+            padding-right: 5%;
+            padding-bottom: 15%;
+        }
+    }
+    
+}
